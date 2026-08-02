@@ -1,0 +1,25 @@
+.topmenu{
+   width:100px ;
+   background-color: #0a48a4 ;
+   height: 30px; 
+   padding: 10px 0px 0px 15px; 
+
+} 
+
+
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: white;
+}
+
+ 
+a {
+  font-size: 16px; /* กำหนดขนาดฟอนต์ 16 pixel */
+  color: #007bff;   /* สีเริ่มต้น (ปรับเปลี่ยนได้ตามต้องการ) */
+  text-decoration: none;
+}
+
+ 
