@@ -36,7 +36,7 @@
 9. ให้ท่าน อยู่ที่ path เดียวกันกับ file ชื่อ docker-compose.yml
 10. ใช้คำสั่ง docker compose up -d --build 
 11. ใช้คำสั่ง docker ps เพื่อตรวจสอบว่า มี container ถูกสร้างขึ้นหรือไม่
-12. เปิด broswer พิมพ์  url: => http://www.spikyrobotics.com
+12. เปิด broswer พิมพ์  url: => https://www.spikyrobotics.com
 
 
 
