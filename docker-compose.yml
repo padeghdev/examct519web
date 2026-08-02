@@ -4,6 +4,6 @@ services:
     container_name: my_static_web
     restart: always
     ports:
-      - "8080:80"
+      - "80:80"
     volumes:
       - ./html:/usr/share/nginx/html:ro
