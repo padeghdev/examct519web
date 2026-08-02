@@ -1,4 +1,4 @@
-## examination CT519 : Web Personal
+## Examination CT519 : Web Personal
  
 - **Web site ข้อมูลนักศึกษา** 
 
@@ -27,15 +27,15 @@
 
 4. มายังเครื่องคอมฯ ของท่าน
 5. ให้ท่านอยู่ที่ folder ที่ท่านต้องการ 
-6. ให้ paste =>  git clone https://github.com/padeghdev/examct519web.git
-7. เมื่อระบบทำงานเสร็จ ใช้คำสั่ง cd เข้าไปใน folder ชื่อ examct519web
+6. ให้ทำการ paste => git clone https://github.com/padeghdev/examct519web.git
+7. ระบบจะทำการดึง file ลงมา และเมื่อระบบทำงานเสร็จ ใช้คำสั่ง cd เข้าไปใน folder ชื่อ examct519web
 8. ตอนนี้ท่านจะเห็น code ทั้งหมด อยู่ใน folder นี้แล้ว 
 เมื่อfile ทั้งหมด อยู่ในเครื่องแล้ว
 
 ### ทำการติดตั้ง บนเครื่องของท่าน
 
-2. ให้ท่าน อยู่ที่ path เดียวกันกับ file ชื่อ docker-compose.yml
-ใช้คำสั่ง docker compose up -d --build ระบบจะทำการดึงโปรแกรม ต่างๆ ที่เกี่ยวข้อง เข้าสู่ระบบ
-ใช้คำสั่ง docker ps เพื่อตรวจสอบว่า มี container ถูกสรา้งขึ้นหรือไม่
-เปิด broswe tabที่ 1 : สำหรับในส่วนของ pgadmin url: => http://<ip address เครื่องของท่าน>:5055
-เปิด broswe tabที่ 2 : สำหรับในส่วนของ web application url: => http://<ip address เครื่องของท่าน>:5000
+9. ให้ท่าน อยู่ที่ path เดียวกันกับ file ชื่อ docker-compose.yml
+10 ใช้คำสั่ง docker compose up -d --build 
+11 ใช้คำสั่ง docker ps เพื่อตรวจสอบว่า มี container ถูกสรา้งขึ้นหรือไม่
+12 เปิด broswer พิมพ์  url: => http://www.spikyrobotics.com
+ 
