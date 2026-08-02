@@ -19,23 +19,29 @@
 1. กด ปุ่ม code สีเขียว 
 2. จะมีหน้าจอ ขนาดเล็ก เปิดขึ้นมา 
 
-![pop](./git.png)
+![pop](./img/git.png)
 
 3. ใหท่านกดปุ่ม ที่เป็น สี่เหลี่ยมซ้อนกัน (ตามภาพด้านล่าง)
 
-![pop](./btn.png)
+![pop](./img/btn.png)
 
 4. มายังเครื่องคอมฯ ของท่าน
 5. ให้ท่านอยู่ที่ folder ที่ท่านต้องการ 
 6. ให้ทำการ paste => git clone https://github.com/padeghdev/examct519web.git
 7. ระบบจะทำการดึง file ลงมา และเมื่อระบบทำงานเสร็จ ใช้คำสั่ง cd เข้าไปใน folder ชื่อ examct519web
 8. ตอนนี้ท่านจะเห็น code ทั้งหมด อยู่ใน folder นี้แล้ว 
-เมื่อfile ทั้งหมด อยู่ในเครื่องแล้ว
 
-### ทำการติดตั้ง บนเครื่องของท่าน
+### ทำการติดตั้งด้วย docker compose บนเครื่องของท่าน
 
 9. ให้ท่าน อยู่ที่ path เดียวกันกับ file ชื่อ docker-compose.yml
 10 ใช้คำสั่ง docker compose up -d --build 
-11 ใช้คำสั่ง docker ps เพื่อตรวจสอบว่า มี container ถูกสรา้งขึ้นหรือไม่
+11 ใช้คำสั่ง docker ps เพื่อตรวจสอบว่า มี container ถูกสร้างขึ้นหรือไม่
 12 เปิด broswer พิมพ์  url: => http://www.spikyrobotics.com
+
+
+
+
  
+
+
+
